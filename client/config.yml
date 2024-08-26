@@ -1,0 +1,11 @@
+username: "username"
+password: "password" # leave empty if you want to use the password prompt
+server-address: "localhost"
+server-port: 12222
+logging:
+  - info:
+    file: "client.log"
+    level: "info"
+  - error:
+    file: "client.log"
+    level: "error"
