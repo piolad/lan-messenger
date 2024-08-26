@@ -2,3 +2,9 @@
 makefile
 *.o
 *.out
+
+# Ignore everything in the build directory
+/client/build/*
+
+# But keep the .gitkeep file
+!/client/build/.gitkeep
